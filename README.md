@@ -43,11 +43,20 @@ cp -r persian-prompt-compiler .claude/skills/
 
 در Claude Code بعد از دیدن پرامپت می‌توانی بگویی «اجراش کن» تا همان پرامپت به‌عنوان تسک اجرا شود. اگر خروجی JSON بخواهی، کافی است بگویی.
 
+## نمونه‌ها
+
+- [کدنویسی با محدودیت منفی](examples/01-coding-file-organizer.md)
+- [درخواست مبهم و پرسیدن قبل از حدس زدن](examples/02-vague-request-clarifying.md)
+- [درخواست ساده و اصل تناسب](examples/03-writing-proportional.md)
+- [دیباگ بدون حدس زدن علت](examples/04-debugging.md)
+
 ## ساختار
 
 ```
 persian-prompt-compiler/
 └── SKILL.md
+examples/
+└── نمونه‌های ورودی و خروجی
 ```
 
 ## منبع و لایسنس
